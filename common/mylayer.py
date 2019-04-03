@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-
+# customise three layers based on theano
 
 import theano
 import theano.tensor as T
@@ -15,7 +15,7 @@ import numpy as np
 
 
 __all__ = [
-    "WarpingLayer",
+    "WarpingLayer",  
     "JointSaliencyLayer",
     #"SaliencyLayer",
     "UpsamplingFlowLayer"
