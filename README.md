@@ -48,4 +48,5 @@ The authors would like to thank Xue Wufeng for providing Cadiac dataset and open
 3. Dosovitskiy, Alexey, et al. "Flownet: Learning optical flow with convolutional networks." Proceedings of the IEEE International Conference on Computer Vision. 2015.
 4. Ilg, Eddy, et al. "Flownet 2.0: Evolution of optical flow estimation with deep networks." arXiv preprint arXiv:1612.01925 (2016).
 5. Qin, Binjie, Shen Z, Fu Z,et al. Joint-saliency structure adaptive kernel regression with adaptive-scale kernels for deformable registration of challenging images[J]. IEEE Acce. 2018, 6: 330-343.
+6. Xue, Wufeng, et al. "Full left ventricle quantification via deep multitask relationships learning." Medical image analysis 43 (2018): 54-65.
 
