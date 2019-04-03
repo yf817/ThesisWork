@@ -22,7 +22,8 @@
 - Training: GTX1080Ti,I7; Lasagne 02.dev/Theano 0.90; Ubuntu 14.04; Cudnn 5.0 + Cuda 8.0; Opt：Adam;
 - Testing : Lasagne 02.dev/Theano 0.90; Tensorflow 0.12/Keras; Caffe;
 ## Training plot: 
-		- ![Demo of JSM](https://github.com/fedral/ThesisWork/raw/master/training.jpg)
+
+![Demo of JSM](https://github.com/fedral/ThesisWork/raw/master/training.jpg)
 		- Adam default setting; Batch Size:8; Epoch Number：300; Initial Learning Rate: 0.0001; Split-Validation Ratio: 0.1; 
 		- the convergence of training error and validation error shows no model over-fitting or under-fitting.
 ## Demo of JSM: 
