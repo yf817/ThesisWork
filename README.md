@@ -47,7 +47,7 @@
 
 ![Comparison Result with satus quo both traditional and deep learning based image registration algorithms](https://github.com/fedral/ThesisWork/raw/master/fig/errorplot.jpg)
 
-Our method most robust and accurate result with the presence of iamge outliers such as missing correspondence and large local deformaities. 
+Our method achieved most robust and accurate results with the presence of image outliers such as missing correspondence and large local deformaities. 
 The authors would like to thank Xue Wufeng for providing Cadiac dataset and open source image registration testing code. 
 
 ## Reference
