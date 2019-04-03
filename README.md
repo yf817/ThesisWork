@@ -18,7 +18,7 @@
 		- local refinement network learns a nonlinear regression function that adaptively corrects erroneous displacement vectors and preserve trustworthy motion vectors with the help of pixelwise certainty information pointed out by image joint saliency. 
 		
 ## Tesing Result
-- Datase : Mnist/LVQU(heart moving frames) 
+- Datase : Mnist/Cadiac moving dataset(LVQU) 
 - Training: GTX1080Ti,I7; Lasagne 02.dev/Theano 0.90; Ubuntu 14.04; Cudnn 5.0 + Cuda 8.0
 - Testing : Lasagne 02.dev/Theano 0.90; Tensorflow 0.12/Keras; Caffe;
 - Comparsion state-of-art Methods:
@@ -34,6 +34,7 @@
 ![Comparison Result with satus quo both traditional and deep learning based image registration algorithms](https://github.com/fedral/ThesisWork/raw/master/errorplot.jpg)
 
 Our method most robust and accurate result with the presence of iamge outliers such as missing correspondence and large local deformaities. 
+The authors would like to thank Xue Wufeng for providing Cadiac dataset and open source image registration testing code. 
 
 ## Reference
 1. Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. "Spatial transformer networks." Advances in Neural Information Processing Systems. 2015.
