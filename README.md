@@ -13,9 +13,9 @@
 	- (1)Global Prediction Network
 		- initially estimates a coarse motion vector filed using global information from input images to be matched. 
 	- (2)Joint Image Saliency Extraction}
-		- Given a coarse motion field from global network, image joint saliency evaluates the certainty of pixelwise motion vector. Joint saliency value is defined by pixel’s local edge structures similarity between target image and deformed moving image. Correctly aligned pixels with commonly salient edge structures are given higher weights, while erroneously registered pixels and inconsistent outliers are suppressed to small value. Joint saliency explicitly tells good predictions apart from pixels with difficult registration like local large deformation and vicious outliers like missing correspondence. As a image context information for intermediate coarse motion prediction, joint saliency is also inputted to the following local refinement network shown in Figure $1$. Since image joint saliency extraction is a differentiable algebra operation, we implemented joint saliency extraction[36-38] as a layer based on Lasagne[28] to render end-to-end unsupervised training of whole network.
+		- image joint saliency evaluates the certainty of pixelwise motion vector.
 	- (3)Local Refinement Network
-		- To elevate prediction accuracy upon the coarse prediction from global network, the local refinement network learns a nonlinear regression function that adaptively corrects erroneous displacement vectors and preserve trustworthy motion vectors with the help of pixelwise certainty information pointed out by image joint saliency. The coarse motion field is concatenated axially with its image joint saliency before inputting local refinement CNN. 
+		- local refinement network learns a nonlinear regression function that adaptively corrects erroneous displacement vectors and preserve trustworthy motion vectors with the help of pixelwise certainty information pointed out by image joint saliency. 
 		
 ## Tesing Result
 - Datase : Mnist/LVQU(heart moving frames) 
