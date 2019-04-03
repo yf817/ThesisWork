@@ -13,7 +13,7 @@
 - KEY WORDS: Non-Rigid Image Registration, Joint Saliency Map, Deep Learning, Deep Neural Network, Bidirectional reinforcement, Convolutional Neural Network, Global to Local
 
 ## Proposed Model
-![Proposed Model](https://github.com/fedral/ThesisWork/raw/model.jpg)
+![Proposed Model](https://github.com/fedral/ThesisWork/raw/master/model.jpg)
 
 1. [x] create_HD5dataset
 - 1.1 creating H5DF Dataset  
@@ -29,7 +29,7 @@
 - Envirnment: GTX1080Ti,I7; Lasagne 02.dev/Theano 0.90; Ubuntu 14.04; Cudnn 5.0 + Cuda 8.0
 - Testing   : Lasagne 02.dev/Theano 0.90; Tensorflow 0.12/Keras; Caffe;
 ## Tesing Result
-![Comparison Result with satus quo both traditional and deep learning based image registration algorithms](https://github.com/fedral/ThesisWork/raw/errorplot.jpg)
+![Comparison Result with satus quo both traditional and deep learning based image registration algorithms](https://github.com/fedral/ThesisWork/raw/master/errorplot.jpg)
 
 
 ## Reference
